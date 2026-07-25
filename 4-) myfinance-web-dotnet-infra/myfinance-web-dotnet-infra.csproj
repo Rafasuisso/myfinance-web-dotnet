@@ -8,6 +8,11 @@
   </PropertyGroup>
 
   <ItemGroup>
-    <ProjectReference Include="..\3-) my-finance-web-dotnet-domain\3-) my-finance-web-dotnet-domain.csproj"/>
+    <ProjectReference Include="..\3-) myfinance-web-dotnet-domain\myfinance-web-dotnet-domain.csproj" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <PackageReference Include="Microsoft.EntityFrameworkCore" Version="10.0.10" />
+    <PackageReference Include="Microsoft.EntityFrameworkCore.SqlServer" Version="10.0.10" />
   </ItemGroup>
 </Project>
